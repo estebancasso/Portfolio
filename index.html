@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Esteban Casso</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body class="dark">
+    <header class="header">
+      <nav class="header__nav">
+        <a href="#home" class="header__logo">
+          <img
+            src="assets/img/logo.png"
+            alt="Logo"
+            width="50"
+            height="50"
+          />
+        </a>
+
+        <div class="header__menu">
+
+          <button class="header__btn btn--close">
+            <i class="bx bx-x"></i>
+          </button>
+
+          <ul class="list">
+            <li class="list__item"><a href="#home" class="list__link">Home</a></li>
+            <li class="list__item"><a href="#about" class="list__link">About</a></li>
+            <li class="list__item">
+              <a href="#skills" class="list__link">Skills</a>
+            </li>
+            <li class="list__item">
+              <a href="#portfolio" class="list__link">Portfolio</a>
+            </li>
+            <li class="list__item">
+              <a href="#contact" class="list__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="header__btn btn--open">
+          <i class="bx bx-menu"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section id="home" class="hero">
+        <div class="container">
+          <div class="hero__img">
+            <img src="assets/img/profile.png" width="250" height="250" alt="JC" />
+          </div>
+          <div class="hero__content">
+            <h1 class="hero__title">Hola, soy Johan</h1>
+            <span class="hero__tag">Desarrollador Web Full stack</span>
+            <p class="hero__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+              aspernatur natus sapiente similique autem libero?
+            </p>
+            <button class="hero__btn" type="button"><a href="#contact">Contactame</a></button>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <h2 class="section__title">Sobre Mí</h2>
+        <div class="container">
+          <p class="about__text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis
+            impedit similique in error facere nemo eligendi a, assumenda
+            laboriosam laudantium repudiandae, vel, beatae fugit exercitationem
+            praesentium aut accusantium sunt illo!
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills">
+        <h2 class="section__title">Habilidades</h2>
+        <div class="container">
+          <div class="skills__content">
+            <div class="skills__item">
+              <div class="skills__img">
+                <img
+                  src="assets/img/iconos/vsc.svg"
+                  height="50"
+                  width="50"
+                  alt="vsc"
+                />
+              </div>
+              <h3 class="skills__text skills__text-name">VsCode</h3>
+              <p class="skills__text">Herramientas</p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img">
+                <img
+                  src="assets/img/iconos/html.svg"
+                  height="50"
+                  width="50"
+                  alt="html"
+                />
+              </div>
+              <h3 class="skills__text skills__text-name">HTML</h3>
+              <p class="skills__text">Frontend</p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img">
+                <img
+                  src="assets/img/iconos/css.svg"
+                  height="50"
+                  width="50"
+                  alt="css"
+                />
+              </div>
+              <h3 class="skills__text skills__text-name">CSS</h3>
+              <p class="skills__text">Frontend</p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img">
+                <img
+                  src="assets/img/iconos/javascript.svg"
+                  height="50"
+                  width="50"
+                  alt="javascript"
+                />
+              </div>
+              <h3 class="skills__text skills__text-name">JavaScript</h3>
+              <p class="skills__text">Lenguaje</p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img">
+                <img
+                  src="assets/img/iconos/git.svg"
+                  height="50"
+                  width="50"
+                  alt="git"
+                />
+              </div>
+              <h3 class="skills__text skills__text-name">Git</h3>
+              <p class="skills__text">Desarrollo</p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img">
+                <img
+                  src="assets/img/iconos/react.svg"
+                  height="50"
+                  width="50"
+                  alt="react"
+                />
+              </div>
+              <h3 class="skills__text skills__text-name">React</h3>
+              <p class="skills__text">Frontend</p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img">
+                <img
+                  src="assets/img/iconos/tailwind.svg"
+                  height="50"
+                  width="50"
+                  alt="tailwind"
+                />
+              </div>
+              <h3 class="skills__text skills__text-name">Talwind</h3>
+              <p class="skills__text">Frontend</p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img">
+                <img
+                  src="assets/img/iconos/nodejs.svg"
+                  height="50"
+                  width="50"
+                  alt="node"
+                />
+              </div>
+              <h3 class="skills__text skills__text-name">Node.js</h3>
+              <p class="skills__text">Backend</p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img">
+                <img
+                  src="assets/img/iconos/postgres.svg"
+                  height="50"
+                  width="50"
+                  alt="postgres"
+                />
+              </div>
+              <h3 class="skills__text skills__text-name">Postgres</h3>
+              <p class="skills__text">Base de Datos</p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img">
+                <img
+                  src="assets/img/iconos/github.svg"
+                  height="50"
+                  width="50"
+                  alt="github"
+                />
+              </div>
+              <h3 class="skills__text skills__text-name">GitHub</h3>
+              <p class="skills__text">Desarrollo</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section portfolio">
+        <h2 class="section__title">Proyectos</h2>
+        <div class="container">
+          <div class="portfolio__content">
+            <article class="portfolio__item">
+              <div class="portfolio__img-content">
+                <img
+                  src="https://source.unsplash.com/1920x1080/?computer"
+                  alt=""
+                />
+              </div>
+              <div class="portfolio__body">
+                <h3 class="portfolio__name">Titulo</h3>
+                <p class="portfolio__text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum,
+                  corrupti!
+                </p>
+                <a href="#" class="portfolio__link"> Más Info</a>
+              </div>
+            </article>
+            <article class="portfolio__item">
+              <div class="portfolio__img-content">
+                <img
+                  src="https://source.unsplash.com/1920x1080/?programmer"
+                  alt=""
+                />
+              </div>
+              <div class="portfolio__body">
+                <h3 class="portfolio__name">Titulo</h3>
+                <p class="portfolio__text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum,
+                  corrupti!
+                </p>
+                <a href="#" class="portfolio__link"> Ver Más</a>
+              </div>
+            </article>
+            <article class="portfolio__item">
+              <div class="portfolio__img-content">
+                <img
+                  src="https://source.unsplash.com/1920x1080/?Technology"
+                  alt=""
+                />
+              </div>
+              <div class="portfolio__body">
+                <h3 class="portfolio__name">Titulo</h3>
+                <p class="portfolio__text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum,
+                  corrupti!
+                </p>
+                <a href="#" class="portfolio__link"> Ver Más</a>
+              </div>
+            </article>
+            <article class="portfolio__item">
+              <div class="portfolio__img-content">
+                <img
+                  src="https://source.unsplash.com/1920x1080/?nature"
+                  alt=""
+                />
+              </div>
+              <div class="portfolio__body">
+                <h3 class="portfolio__name">Titulo</h3>
+                <p class="portfolio__text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum,
+                  corrupti!
+                </p>
+                <a href="#" class="portfolio__link"> Ver Más</a>
+              </div>
+            </article>
+            <article class="portfolio__item">
+              <div class="portfolio__img-content">
+                <img src="https://source.unsplash.com/1920x1080/?car" alt="" />
+              </div>
+              <div class="portfolio__body">
+                <h3 class="portfolio__name">Titulo</h3>
+                <p class="portfolio__text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum,
+                  corrupti!
+                </p>
+                <a href="#" class="portfolio__link"> Ver Más</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <h2 class="section__title">Contacto</h2>
+        <div class="container">
+          <form id="form" class="contact__form">
+            <div class="label__input">
+              <label for="name"><i class="bx bxs-user"></i></label>
+              <input type="text" id="name" placeholder="Nombre" name="name" />
+            </div>
+
+            <div class="label__input">
+              <label for="email"><i class="bx bx-at"></i></label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Correo"
+                name="email"
+              />
+            </div>
+
+            <div>
+              <label for="message">Mensaje</label> <br />
+              <textarea name="message" id="message" rows="10"></textarea>
+            </div>
+
+            <button class="contact__btn" type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__copy">&copy; 2023</p>
+    </footer>
+
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
